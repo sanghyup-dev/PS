@@ -2,6 +2,8 @@
 // 제귀가 꼭 iteration 수로 종료조건이 형성되는 것이 아니다. 대신 종료 조건이 잘 구성되어야한다.
 // 이 문제의 경우 idx가 돌 개수를 초과하거나, 돌을 전부 선택하거나의 두가지 종료조건을 두었다.
 
+//Multilayer BFS 불가 이유: “이동 중에 벽(돌)을 부술지 말지”를 단계적으로 선택하는 상황이 아니라, 처음에 전역적으로 정확히 M개의 돌을 없앤 후 탐색을 진행해야 함
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Queue;
