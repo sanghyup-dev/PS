@@ -1,7 +1,7 @@
 // https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-remove-k-walls/description
 // 그리드 BFS의 핵심 요소: 방향dx,dy/큐/원본그리드/방문그리드/거리그리드/초기화(큐+각 그리드)/큐 빌때까지 반복/연결된 모든 노드
 // 검사(그리드 벗어나기/중복/그리드 조건)/가능 노드 반영(그리드 반영+큐에 추가)
-// 짧은 버젼: 큐/그리드/초기화/루프/방향/후보/조건/반영
+// 짧은 버젼: 큐/그리드/초기화/방향/루프/후보/조건/반영
 
 import java.util.ArrayDeque;
 import java.util.Queue;
