@@ -1,5 +1,5 @@
 //https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-rectangle-fill-3/description
-//DP 생각 순서: 시각화 -> subproblem 인식 -> Extra 확인(ex: recurring tail) -> 시작점 확인 -> tabulation or memoization
+//DP 생각 순서: 시각화 -> subproblem 인식(동일한 상황 찾기) -> Extra 확인(ex: recurring tail)(전 단계 케이스들이 다음 단계를 완벽히 포용하는가) -> 시작점 확인 -> tabulation or memoization
 
 import java.util.Scanner;
 
