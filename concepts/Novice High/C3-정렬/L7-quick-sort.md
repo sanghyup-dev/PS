@@ -57,3 +57,9 @@ function quick_sort(arr[], low, high)
     quick_sort(arr, low, pos - 1)
     quick_sort(arr, pos + 1, high)
 ```
+
+## 개선된 피벗 선택
+
+- 데이터가 3개 이하면 피벗은 반드시 마지막 값이 됨
+- 데이터가 4개 이상이면 맨 왼쪽, 오른쪽, 가운데 (나머지 버림) 값 중 중간 값을 선택함
+- 피벗이 선택되면 먼저 구간의 맨 끝 원소와 꼭 교환해야함
